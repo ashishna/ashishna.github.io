@@ -28,7 +28,7 @@ twitter_username: ashishna
 github_username:  ashishna
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
@@ -42,7 +42,10 @@ highlighter: rouge
 
 kramdown:
   syntax_highlighter: coderay
-  
+
+minima:
+  skin: dark
+
 header_pages:
   - spring-boot.md
   - groovy.md
