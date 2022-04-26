@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "How to filter list in Groovy"
+title:  "Groovier: How to filter list in Groovy"
 date:   2022-04-26 11:29:26 -0400
-categories: groovy code 
+categories: groovy
+tags: groovy code list filter howto java
 ---
 
 ## To filter a list in groovy we can use the `.find()` method on list and pass the closure as filtering criteria
