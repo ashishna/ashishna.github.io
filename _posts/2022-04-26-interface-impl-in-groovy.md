@@ -6,10 +6,10 @@ categories: groovy
 tags: groovy code list filter howto java
 ---
 
-Groovy's `closure` syntax can be used to implement the interfaces with pretty ease. This can come handy when creating scaffolding of code or creatng mocks for testing.
+Groovy's `closure` can be used to implement the interfaces with pretty ease. This can come handy when creating scaffolding of code or creating mocks for testing.
 
 
-## Sinlgle method interface with same implementation
+## Single method interface with same implementation
 
 ```groovy
 interface AwesomeInterface {
@@ -21,7 +21,7 @@ def interfaceImpl =
     { String str -> println("Implementation of methods of interface with value: ${str}") } as AwesomeInterface
 
 interfaceImpl.x("Awesome")
-interfaceImpl.y() // will call same implemnation with null arguments
+interfaceImpl.y() // will call same implementation with null arguments
 ```
 
 ## Output
